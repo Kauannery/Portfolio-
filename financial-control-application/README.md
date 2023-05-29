@@ -1,5 +1,5 @@
 # dev.finance$
-💲 Financial control application built during the Discover Marathon by Rocketseat
+💲 Financial control application 
 
 ![Design](https://user-images.githubusercontent.com/45113260/108545025-02bd8d00-72c6-11eb-9714-5d914fc821ac.png)
 
