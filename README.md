@@ -1,2 +1,2 @@
 # Portfolio-
-Esse Repositório incluem alguns dos meus projetos para 
+Esse Repositório incluem alguns dos meus projetos 
