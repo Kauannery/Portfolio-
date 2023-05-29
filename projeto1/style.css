@@ -1,0 +1,225 @@
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans";
+  }
+   
+ 
+    .center{
+        max-width: 1280px;
+        padding: 0 2%;
+    }
+
+    .w33{
+      width: 33,3%;
+    }
+   
+     .w50{
+        width: 50%;
+     }
+
+     .left{
+        float: left;
+     }
+
+     .right {
+        float: right; 
+     }
+
+     .clear{
+        clear:both;
+     }
+   
+   
+   /**Estlização de site **/
+
+   header{
+    padding: 10px;
+    background: #3D437A;
+   }
+
+   header .logo{
+      font-size: 23px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: white;
+   }
+
+   .mobile{
+        display:none;
+   }
+
+   nav.desktop ul{
+    list-style-type: none;
+    position: relative;
+    top: 6px;
+
+   }
+
+   nav.desktop li{
+   font-weight: 300;
+    text-transform: uppercase;
+    display:inline-block;
+    font-size: 15px;
+    padding: 0 30px;
+   }
+
+   nav.desktop a{
+    color: white;
+    text-decoration: none;
+   }
+
+section.banner-principal{
+   width: 100%;
+   height: 600px;
+   background-image: url('../projeto1/img/dedo\ apontando.jpg');
+   background-size: cover;
+   position: relative;
+}
+
+.overlay{
+   position:absolute;
+   left: 0;
+   top: 0;
+   width:100%;
+   height: 100%;
+   background-color: rgba(51,51,51,0,7);
+
+}
+
+section.banner-principal form {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 20px;
+   text-align: center;
+}
+
+section.banner-principal form h2{
+   font-size: 24px;
+   margin-bottom: 20px;
+  
+ 
+}
+
+section.banner-principal form input [type=email]{
+   width: 100%;
+   height: 66px;
+   background: white;
+   color: #333;
+   font-size: 22px;
+   padding-left: 10px;
+}
+
+section.banner-principal form input[type=submit]{
+      width: 100%;
+      height: 66px;
+      margin-top:10px;
+      background: #00c59e;
+      color: white;
+      cursor: pointer;
+      font-size: 22px;
+      border: 0;
+}
+
+section.descricao-autor {
+   padding: 30px 0;
+}
+
+section.descricao-autor h2{
+   font-size: 25px;
+   font-weight: 400;
+   color: #444;
+}
+
+section.descricao-autor p{
+   font-size: 16px;
+   color: #444;
+   margin-top:10px;
+
+}
+
+section.especialididades{
+   padding: 40px 0;
+   background: #e2e2e2;
+}
+
+Section.especialidades h2.title{
+   font-size:30px
+   font-weight: 400;
+}
+
+@media  screen and (max-widht: 700px) {
+   nav.desk
+   
+}
+
+@media screen and (max-widht: 768px){
+   img{
+      float: none !important;
+      display: block;
+      margin: 0 auto;
+      max-width: 500px;
+   }
+
+   .w50{
+      padding: 20px;
+      width: 100%;
+
+   }
+}
+
+.box-especialidade h3 {
+   font-size: 40px;
+   margin-bottom: 10px;
+ }
+ 
+ .box-especialidade p {
+   line-height: 1.6;
+ }
+
+ section.extras .title{
+   color: white;
+   font-weight: 300;
+   font-size: 25px;
+   margin-bottom: 1px ;
+
+ }
+ 
+ /* Estilo dos depoimentos */
+ 
+ .extras {
+   margin-top: 50px;
+   text-align: center;
+ }
+ 
+ .depoimento-single {
+   margin-bottom: 30px;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ p.depoimento-descricao {
+   line-height: 1.6;
+ }
+ 
+ .nome-autor {
+   font-style: italic;
+   margin-top: 10px;
+ }
+ 
+ /* Estilo do rodapé */
+ 
+ footer {
+   background-color: #ffffff;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+ }
+
+
+
